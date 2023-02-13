@@ -1,0 +1,532 @@
+{
+    "politicians": [
+        {
+            "id": 1,
+            "age": 45,
+            "firstName": "Jane",
+            "lastName": "Doe",
+            "phone": "212-555-1234",
+            "district": "New York, NY",
+            "platform": "Protecting the environment and promoting small business growth"
+        },
+        {
+            "id": 2,
+            "age": 50,
+            "firstName": "John",
+            "lastName": "Smith",
+            "phone": "323-555-5678",
+            "district": "Los Angeles, CA",
+            "platform": "Expanding access to quality healthcare and education"
+        },
+        {
+            "id": 3,
+            "age": 35,
+            "firstName": "Sarah",
+            "lastName": "Johnson",
+            "phone": "404-555-9012",
+            "district": "Atlanta, GA",
+            "platform": "Advocating for criminal justice reform and job creation"
+        },
+        {
+            "id": 4,
+            "age": 55,
+            "firstName": "Bob",
+            "lastName": "Brown",
+            "phone": "312-555-3456",
+            "district": "Chicago, IL",
+            "platform": "Supporting strong national defense and reducing government waste"
+        },
+        {
+            "id": 5,
+            "age": 40,
+            "firstName": "Emily",
+            "lastName": "Davis",
+            "phone": "202-555-7890",
+            "district": "Washington, DC",
+            "platform": "Fighting for workers' rights and protecting the rights of immigrant families"
+        }
+    ],
+    "corporations": [
+        {
+            "id": 1,
+            "name": "ExxonMobil",
+            "address": "5959 Las Colinas Boulevard, Irving, TX 75039"
+        },
+        {
+            "id": 2,
+            "name": "John Deere",
+            "address": "One John Deere Place, Moline, IL 61265"
+        },
+        {
+            "id": 3,
+            "name": "JPMorgan Chase",
+            "address": "270 Park Ave, New York, NY 10017"
+        },
+        {
+            "id": 4,
+            "name": "Walmart",
+            "address": "702 SW 8th St, Bentonville, AR 72716"
+        },
+        {
+            "id": 5,
+            "name": "Caterpillar Inc.",
+            "address": "100 NE Adams St, Peoria, IL 61629"
+        },
+        {
+            "id": 6,
+            "name": "UnitedHealth Group",
+            "address": "9900 Bren Road East, Minnetonka, MN 55343"
+        },
+        {
+            "id": 7,
+            "name": "Dow Inc.",
+            "address": "2020 Dow Center, Midland, MI 48674"
+        },
+        {
+            "id": 8,
+            "name": "Boeing",
+            "address": "100 North Riverside Plaza, Chicago, IL 60606"
+        },
+        {
+            "id": 9,
+            "name": "General Electric",
+            "address": "3135 Easton Turnpike, Fairfield, CT 06828"
+        },
+        {
+            "id": 10,
+            "name": "Waste Management Inc.",
+            "address": "1001 Fannin Street, Suite 4000, Houston, TX 77002"
+        }                
+    ],
+    "pacs": [
+        {
+            "id": 1,
+            "name": "Forward America PAC",
+            "address": "1020 Broadway Ave, San Francisco, CA 94109"
+        },
+        {
+            "id": 2,
+            "name": "Empower PAC",
+            "address": "5678 5th Ave, New York, NY 10036"
+        },
+        {
+            "id": 3,
+            "name": "Better Future PAC",
+            "address": "1234 Market St, Seattle, WA 98109"
+        },
+        {
+            "id": 4,
+            "name": "Bridge Builders PAC",
+            "address": "1667 Ocean Blvd, Los Angeles, CA 90211"
+        },
+        {
+            "id": 5,
+            "name": "Innovative Change PAC",
+            "address": "7890 Elm St, Chicago, IL 60602"
+        },
+        {
+            "id": 6,
+            "name": "Shaping Tomorrow PAC",
+            "address": "2221 Broadway Ave, San Francisco, CA 94115"
+        },
+        {
+            "id": 7,
+            "name": "Building a Better Tomorrow PAC",
+            "address": "5676 5th Ave, New York, NY 10035"
+        },
+        {
+            "id": 8,
+            "name": "Unified PAC",
+            "address": "1232 Market St, Seattle, WA 98108"
+        },
+        {
+            "id": 9,
+            "name": "Bright Future Together PAC",
+            "address": "1665 Ocean Blvd, Los Angeles, CA 90212"
+        },
+        {
+            "id": 10,
+            "name": "Building Stronger Communities PAC",
+            "address": "7888 Elm St, Chicago, IL 60603"
+        },
+        {
+            "id": 11,
+            "name": "Powerful Partnerships PAC",
+            "address": "2219 Broadway Ave, San Francisco, CA 94116"
+        },
+        {
+            "id": 12,
+            "name": "A Brighter Future PAC",
+            "address": "5675 5th Ave, New York, NY 10034"
+        },
+        {
+            "id": 13,
+            "name": "Building Bridges Together PAC",
+            "address": "1231 Market St, Seattle, WA 98107"
+        },
+        {
+            "id": 14,
+            "name": "Powerful Progress PAC",
+            "address": "1663 Ocean Blvd, Los Angeles, CA 90213"
+        },
+        {
+            "id": 15,
+            "name": "Building a Stronger America PAC",
+            "address": "7887 Elm St, Chicago, IL 60604"
+        }          
+    ],
+    "corpPacs": [
+        {"id": 1, "corpId": 1, "pacId": 15, "donId": 1},
+        {"id": 2, "corpId": 1, "pacId": 14, "donId": 2},
+        {"id": 3, "corpId": 1, "pacId": 1, "donId": 3},
+        {"id": 4, "corpId": 2, "pacId": 14, "donId": 4},
+        {"id": 5, "corpId": 2, "pacId": 13, "donId": 5},
+        {"id": 6, "corpId": 2, "pacId": 2, "donId": 6},
+        {"id": 7, "corpId": 3, "pacId": 13, "donId": 7},
+        {"id": 8, "corpId": 3, "pacId": 12, "donId": 8},
+        {"id": 9, "corpId": 3, "pacId": 3, "donId": 9},
+        {"id": 10, "corpId": 4, "pacId": 12, "donId": 10},
+        {"id": 11, "corpId": 4, "pacId": 11, "donId": 11},
+        {"id": 12, "corpId": 4, "pacId": 4, "donId": 12},
+        {"id": 13, "corpId": 5, "pacId": 11, "donId": 13},
+        {"id": 14, "corpId": 5, "pacId": 10, "donId": 14},
+        {"id": 15, "corpId": 5, "pacId": 5, "donId": 15},
+        {"id": 16, "corpId": 6, "pacId": 10, "donId": 16},
+        {"id": 17, "corpId": 6, "pacId": 9, "donId": 17},
+        {"id": 18, "corpId": 6, "pacId": 6, "donId": 18},
+        {"id": 19, "corpId": 7, "pacId": 9, "donId": 19},
+        {"id": 20, "corpId": 7, "pacId": 8, "donId": 20},
+        {"id": 21, "corpId": 7, "pacId": 7, "donId": 21},
+        {"id": 22, "corpId": 8, "pacId": 8, "donId": 22},
+        {"id": 23, "corpId": 8, "pacId": 7, "donId": 23},
+        {"id": 24, "corpId": 8, "pacId": 6, "donId": 24},
+        {"id": 25, "corpId": 9, "pacId": 3, "donId": 25},
+        {"id": 26, "corpId": 9, "pacId": 6, "donId": 26},
+        {"id": 27, "corpId": 9, "pacId": 1, "donId": 27},
+        {"id": 28, "corpId": 10, "pacId": 15, "donId": 28},
+        {"id": 29, "corpId": 10, "pacId": 5, "donId": 29},
+        {"id": 30, "corpId": 10, "pacId": 2, "donId": 30}
+    ],
+    "politicianPacs": [
+        {"id": 1, "polId": 1, "pacId": 5, "donId": 31},
+        {"id": 1, "polId": 1, "pacId": 12, "donId": 32},
+        {"id": 1, "polId": 1, "pacId": 15, "donId": 33},
+        {"id": 1, "polId": 1, "pacId": 14, "donId": 34},
+        {"id": 1, "polId": 1, "pacId": 6, "donId": 35},
+        {"id": 1, "polId": 2, "pacId": 5, "donId": 36},
+        {"id": 1, "polId": 2, "pacId": 3, "donId": 37},
+        {"id": 1, "polId": 2, "pacId": 7, "donId": 38},
+        {"id": 1, "polId": 2, "pacId": 4, "donId": 39},
+        {"id": 1, "polId": 2, "pacId": 11, "donId": 40},
+        {"id": 1, "polId": 3, "pacId": 14, "donId": 41},
+        {"id": 1, "polId": 3, "pacId": 4, "donId": 42},
+        {"id": 1, "polId": 3, "pacId": 8, "donId": 43},
+        {"id": 1, "polId": 3, "pacId": 15, "donId": 44},
+        {"id": 1, "polId": 3, "pacId": 1, "donId": 45},
+        {"id": 1, "polId": 4, "pacId": 13, "donId": 46},
+        {"id": 1, "polId": 4, "pacId": 10, "donId": 47},
+        {"id": 1, "polId": 4, "pacId": 9, "donId": 48},
+        {"id": 1, "polId": 4, "pacId": 4, "donId": 49},
+        {"id": 1, "polId": 4, "pacId": 6, "donId": 50},
+        {"id": 1, "polId": 5, "pacId": 4, "donId": 51},
+        {"id": 1, "polId": 5, "pacId": 10, "donId": 52},
+        {"id": 1, "polId": 5, "pacId": 9, "donId": 53},
+        {"id": 1, "polId": 5, "pacId": 1, "donId": 54},
+        {"id": 1, "polId": 5, "pacId": 6, "donId": 55},
+        {"id": 1, "polId": 1, "pacId": 10, "donId": 56},
+        {"id": 1, "polId": 2, "pacId": 13, "donId": 57},
+        {"id": 1, "polId": 3, "pacId": 9, "donId": 58},
+        {"id": 1, "polId": 4, "pacId": 11, "donId": 59},
+        {"id": 1, "polId": 5, "pacId": 2, "donId": 60}
+    ],
+    "donations": [
+        {"id": 1, "amount": 95658, "date": "4/20/2015"},
+        {"id": 2, "amount": 26228, "date": "6/23/2019"},
+        {"id": 3, "amount": 38962, "date": "2/12/2007"},
+        {"id": 4, "amount": 66809, "date": "4/12/2018"},
+        {"id": 5, "amount": 100926, "date": "12/8/2015"},
+        {"id": 6, "amount": 66350, "date": "1/15/2006"},
+        {"id": 7, "amount": 79762, "date": "5/15/2018"},
+        {"id": 8, "amount": 109336, "date": "1/13/2015"},
+        {"id": 9, "amount": 24311, "date": "9/25/2007"},
+        {"id": 10, "amount": 111783, "date": "6/23/2018"},
+        {"id": 11, "amount": 31853, "date": "9/15/2010"},
+        {"id": 12, "amount": 97004, "date": "4/20/2002"},
+        {"id": 13, "amount": 20896, "date": "9/21/2020"},
+        {"id": 14, "amount": 34835, "date": "10/27/2023"},
+        {"id": 15, "amount": 24789, "date": "5/6/2019"},
+        {"id": 16, "amount": 65710, "date": "9/23/2007"},
+        {"id": 17, "amount": 77263, "date": "4/23/2000"},
+        {"id": 18, "amount": 88342, "date": "3/5/2012"},
+        {"id": 19, "amount": 50625, "date": "4/30/2022"},
+        {"id": 20, "amount": 92591, "date": "4/18/2014"},
+        {"id": 21, "amount": 22664, "date": "5/16/2015"},
+        {"id": 22, "amount": 53683, "date": "11/29/2021"},
+        {"id": 23, "amount": 38279, "date": "8/25/2023"},
+        {"id": 24, "amount": 121951, "date": "1/11/2002"},
+        {"id": 25, "amount": 24690, "date": "5/9/2015"},
+        {"id": 26, "amount": 64490, "date": "12/23/2006"},
+        {"id": 27, "amount": 39945, "date": "2/14/2014"},
+        {"id": 28, "amount": 92502, "date": "5/8/2008"},
+        {"id": 29, "amount": 73009, "date": "5/26/2021"},
+        {"id": 30, "amount": 29810, "date": "6/29/2023"},
+        {"id": 31, "amount": 80555, "date": "10/4/2008"},
+        {"id": 32, "amount": 75813, "date": "5/22/2019"},
+        {"id": 33, "amount": 45385, "date": "2/1/2001"},
+        {"id": 34, "amount": 109869, "date": "8/1/2016"},
+        {"id": 35, "amount": 79055, "date": "2/21/2007"},
+        {"id": 36, "amount": 106177, "date": "6/1/2011"},
+        {"id": 37, "amount": 83476, "date": "7/26/2022"},
+        {"id": 38, "amount": 112661, "date": "11/22/2014"},
+        {"id": 39, "amount": 25302, "date": "9/13/2000"},
+        {"id": 40, "amount": 22386, "date": "8/23/2009"},
+        {"id": 41, "amount": 74842, "date": "7/12/2020"},
+        {"id": 42, "amount": 54962, "date": "4/13/2006"},
+        {"id": 43, "amount": 47056, "date": "11/10/2002"},
+        {"id": 44, "amount": 92294, "date": "11/25/2013"},
+        {"id": 45, "amount": 55364, "date": "3/17/2021"},
+        {"id": 46, "amount": 104723, "date": "9/9/2000"},
+        {"id": 47, "amount": 71089, "date": "5/27/2017"},
+        {"id": 48, "amount": 31401, "date": "4/15/2001"},
+        {"id": 49, "amount": 101558, "date": "7/21/2022"},
+        {"id": 50, "amount": 67319, "date": "5/20/2020"},
+        {"id": 51, "amount": 41623, "date": "11/13/2017"},
+        {"id": 52, "amount": 112414, "date": "2/7/2005"},
+        {"id": 53, "amount": 62685, "date": "8/9/2014"},
+        {"id": 54, "amount": 33972, "date": "3/24/2010"},
+        {"id": 55, "amount": 112796, "date": "2/27/2023"},
+        {"id": 56, "amount": 110937, "date": "4/29/2012"},
+        {"id": 57, "amount": 92983, "date": "2/21/2008"},
+        {"id": 58, "amount": 20557, "date": "10/17/2018"},
+        {"id": 59, "amount": 29410, "date": "6/19/2023"},
+        {"id": 60, "amount": 29709, "date": "9/8/2007"}
+    ],
+    "interests": [
+        {
+            "id": 1,
+            "name": "Pharmaceuticals"
+        },
+        {
+            "id": 2,
+            "name": "Fossil Fuels"
+        },
+        {
+            "id": 3,
+            "name": "Agriculture"
+        },
+        {
+            "id": 4,
+            "name": "Technology"
+        },
+        {
+            "id": 5,
+            "name": "Finance"
+        },
+        {
+            "id": 6,
+            "name": "Telecommunications"
+        },
+        {
+            "id": 7,
+            "name": "Retail"
+        },
+        {
+            "id": 8,
+            "name": "Consumer Goods"
+        },
+        {
+            "id": 9,
+            "name": "Automotive"
+        },
+        {
+            "id": 10,
+            "name": "Construction"
+        },
+        {
+            "id": 11,
+            "name": "Healthcare"
+        },
+        {
+            "id": 12,
+            "name": "Insurance"
+        },
+        {
+            "id": 13,
+            "name": "Energy"
+        },
+        {
+            "id": 14,
+            "name": "Chemicals"
+        },
+        {
+            "id": 15,
+            "name": "Defense"
+        },
+        {
+            "id": 16,
+            "name": "Transportation"
+        },
+        {
+            "id": 17,
+            "name": "Electronics"
+        },
+        {
+            "id": 18,
+            "name": "Food and Beverage"
+        },
+        {
+            "id": 19,
+            "name": "Waste Management and Recycling"
+        },
+        {
+            "id": 20,
+            "name": "Environmental"
+        }
+    ],
+    "bills": [
+        {
+            "id": 1,
+            "name": "H.R. 4379: Comprehensive Industry Regulation Act",
+            "intId": 1
+        },
+        {
+            "id": 2,
+            "name": "H.R. 4223: National Resource Optimization Act",
+            "intId": 2
+        },
+        {
+            "id": 3,
+            "name": "H.R. 4921: Agricultural Development and Enhancement Act",
+            "intId": 3
+        },
+        {
+            "id": 4,
+            "name": "H.R. 5312: Digital Infrastructure and Advancement Act",
+            "intId": 4
+        },
+        {
+            "id": 5,
+            "name": "H.R. 6248: Financial Sector Stability and Growth Act",
+            "intId": 5
+        },
+        {
+            "id": 6,
+            "name": "H.R. 7163: Telecommunications Modernization and Expansion Act",
+            "intId": 6
+        },
+        {
+            "id": 7,
+            "name": "H.R. 8291: Retail Industry Modernization Act",
+            "intId": 7
+        },
+        {
+            "id": 8,
+            "name": "H.R. 15071: Consumer Goods Industry Innovation and Advancement Act",
+            "intId": 8
+        },
+        {
+            "id": 9,
+            "name": "H.R. 9931: Automotive Industry Advancement Act",
+            "intId": 9
+        },
+        {
+            "id": 10,
+            "name": "H.R. 10961: Construction and Building Efficiency Act",
+            "intId": 10
+        },
+        {
+            "id": 11,
+            "name": "H.R. 11121: Healthcare Industry Regulation and Innovation Act",
+            "intId": 11
+        },
+        {
+            "id": 12,
+            "name": "H.R. 12861: Insurance Industry Modernization and Reform Act",
+            "intId": 12
+        },
+        {
+            "id": 13,
+            "name": "H.R. 13121: Energy Sector Modernization and Development Act",
+            "intId": 13
+        },
+        {
+            "id": 14,
+            "name": "H.R. 14071: Chemical Industry Regulation and Safety Act",
+            "intId": 14
+        },
+        {
+            "id": 15,
+            "name": "H.R. 9051: National Defense and Security Enhancement Act",
+            "intId": 15
+        },
+        {
+            "id": 16,
+            "name": "H.R. 16071: Transportation Industry Modernization and Efficiency Act",
+            "intId": 16
+        },
+        {
+            "id": 17,
+            "name": "H.R. 17061: Electronics Industry Regulation and Development Act",
+            "intId": 17
+        },
+        {
+            "id": 18,
+            "name": "H.R. 18061: Food and Beverage Industry Modernization Act",
+            "intId": 18
+        },
+        {
+            "id": 19,
+            "name": "H.R. 4234: Comprehensive Waste Reduction and Recycling Act",
+            "intId": 19
+        },
+        {
+            "id": 20,
+            "name": "H.R. 20051: Environmental Conservation and Sustainability Act",
+            "intId": 20
+        }
+    ],
+    "corpInterests": [
+        {"id": 1, "corpId": 1, "intId": 1},
+        {"id": 2, "corpId": 1, "intId": 2},
+        {"id": 3, "corpId": 2, "intId": 3},
+        {"id": 4, "corpId": 2, "intId": 4},
+        {"id": 5, "corpId": 3, "intId": 5},
+        {"id": 6, "corpId": 3, "intId": 6},
+        {"id": 7, "corpId": 4, "intId": 7},
+        {"id": 8, "corpId": 4, "intId": 8},
+        {"id": 9, "corpId": 5, "intId": 9},
+        {"id": 10, "corpId": 5, "intId": 10},
+        {"id": 11, "corpId": 6, "intId": 11},
+        {"id": 12, "corpId": 6, "intId": 12},
+        {"id": 13, "corpId": 7, "intId": 13},
+        {"id": 14, "corpId": 7, "intId": 14},
+        {"id": 15, "corpId": 8, "intId": 15},
+        {"id": 16, "corpId": 8, "intId": 16},
+        {"id": 17, "corpId": 9, "intId": 17},
+        {"id": 18, "corpId": 9, "intId": 18},
+        {"id": 19, "corpId": 10, "intId": 19},
+        {"id": 20, "corpId": 10, "intId": 20}
+    ],
+    "billSponsors": [
+        {"id": 1, "polId": 1, "billId": 1},
+        {"id": 1, "polId": 2, "billId": 2},
+        {"id": 1, "polId": 3, "billId": 3},
+        {"id": 1, "polId": 4, "billId": 4},
+        {"id": 1, "polId": 5, "billId": 5},
+        {"id": 1, "polId": 1, "billId": 6},
+        {"id": 1, "polId": 2, "billId": 7},
+        {"id": 1, "polId": 3, "billId": 8},
+        {"id": 1, "polId": 4, "billId": 9},
+        {"id": 1, "polId": 5, "billId": 10},
+        {"id": 1, "polId": 1, "billId": 11},
+        {"id": 1, "polId": 2, "billId": 12},
+        {"id": 1, "polId": 3, "billId": 13},
+        {"id": 1, "polId": 4, "billId": 14},
+        {"id": 1, "polId": 5, "billId": 15},
+        {"id": 1, "polId": 1, "billId": 16},
+        {"id": 1, "polId": 2, "billId": 17},
+        {"id": 1, "polId": 3, "billId": 18},
+        {"id": 1, "polId": 4, "billId": 19},
+        {"id": 1, "polId": 5, "billId": 20}
+    ]
+}
